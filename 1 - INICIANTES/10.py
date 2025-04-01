@@ -1,0 +1,5 @@
+nome = input('')
+salariof = float(input(''))
+totalv = float(input(''))
+montante = ((totalv * 0.15) + salariof)
+print (f'TOTAL = R$ {montante:.2f}')
